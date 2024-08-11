@@ -1,0 +1,67 @@
+/* TestList.css */
+.quiz-list-container {
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    padding: 20px;
+  }
+  
+  .quiz-list-title {
+    font-size: 28px;
+    color: #2d84f5;
+    margin-bottom: 20px;
+  }
+  
+  .loading-message {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .quiz-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quiz-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .quiz-name {
+    font-size: 18px;
+    color: #2d84f5;
+    margin-right: 5px;
+  }
+  .quiz-name2{
+    font-size: 20px;
+    color: #2d84f5;
+    margin-right: 10px;
+  }
+  /* Icon styles */
+  .listeye-icon,
+  .editeye-icon,
+  .deleteeye-icon {
+    font-size: 24px;
+    color: #007bff; /* View (blue) */
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .editeye-icon {
+    color: #2d84f5; /* Edit (green) */
+  }
+  
+  .deleteeye-icon {
+    color: #dc3545; /* Delete (red) */
+  }
+  

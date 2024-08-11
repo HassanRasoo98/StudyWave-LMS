@@ -1,0 +1,140 @@
+.container2 {
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  .courseheading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #052d50;
+
+  }
+  
+  .coursesparagraph {
+    font-size: 16px;
+    color: #757575;
+    
+  }
+  /* Styles for the container */
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+  
+  /* Styles for each course item */
+  .course-item {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 350px;
+    background-color: #fff;
+    margin-left: 40px;
+    margin-top: 40px;
+    transition: transform 0.3s; /* Add a smooth transform transition */
+}
+
+/* Scale up the card on hover */
+.course-item:hover {
+    transform: scale(1.05); /* Scale the card by 5% on hover */
+}
+  .courseimg{
+    height: 236px;
+    width: 400px;
+  }
+.course-item-body-inner{
+    margin-top: -200px;
+}
+/* .course-category li{
+    background-color: #25ab7c;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px; 
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+} */
+/* .course-category a{
+    text-decoration: none;
+    color: white;
+} */
+.rating-review {
+    list-style: none; /* Remove default list styles */
+    background-color: black;
+    width: 80px;
+    margin-left: 240px;
+}
+.total-review {
+    font-size: 18px; /* Adjust the font size as needed */
+    background-color: black;
+    color: white; /* Choose your desired text color */
+    display: flex; /* Make the star and rating text display in a row */
+    align-items: center; /* Vertically center items */
+    text-align: center;
+    margin-top: 190px;
+    
+}
+.icon-start{
+    color: #F39C12;
+    margin-left: 10px;
+}
+.course-item-body{
+    background-color: rgb(236, 234, 234);
+    margin-top: -10px;
+
+}
+.title {
+    margin: 0; /* Remove default margin */
+}
+
+.courseparagraph {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #052d50; /* Choose your desired text color */
+    margin: 10px; /* Remove any default margin or padding */
+    font-weight: bold; /* Adjust font weight as needed */
+}
+/* Style for the course-item-info list */
+.course-item-info2 {
+    list-style-type: none; /* Remove the default list-style */
+    padding: 0; /* Remove any default padding */
+    display: flex; /* Use flexbox for positioning */
+    justify-content: space-between; /* Place items at opposite ends */
+    margin: 10px;
+    color: #052d50;
+}
+.course-item-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #dddddd;
+}
+.course-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #052d50;
+}
+.details-btn {
+    background-color:#052d50; /* Background color for the button */
+    color: #fff; /* Text color for the button */
+    padding: 8px 15px; /* Add padding to the button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    text-decoration: none;
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+    cursor: pointer;
+}
+.course-item-footer li{
+    list-style: none;
+}
+.details-btn:hover {
+    background-color: #333; /* Change the background color on hover */
+}
+
+
+
+
+
+
+
+

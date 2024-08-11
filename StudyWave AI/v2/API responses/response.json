@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "question": "What type of artificial intelligence has the series Crash Course AI primarily focused on?",
+      "options": [
+        "Unsupervised learning",
+        "Reinforcement learning",
+        "Supervised learning",
+        "Semi-supervised learning"
+      ],
+      "answer": "Supervised learning"
+    },
+    {
+      "question": "What is the term used to describe learning without a teacher?",
+      "options": [
+        "Self-learning",
+        "Independent learning",
+        "Unsupervised learning",
+        "Solo learning"
+      ],
+      "answer": "Unsupervised learning"
+    },
+    {
+      "question": "In unsupervised learning, how do individuals learn?",
+      "options": [
+        "By following structured curriculum",
+        "By imitating teachers",
+        "By finding patterns in data",
+        "By attending classes"
+      ],
+      "answer": "By finding patterns in data"
+    }
+  ]
+}

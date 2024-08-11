@@ -1,0 +1,115 @@
+/* UpdateTest.css */
+
+/* Container styles */
+.update-test-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  .update-test-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2d84f5;
+  }
+  .updatequestions-title{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2d84f5;
+  }
+  .fixedupdate{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #2d84f5;
+  }
+  /* Message styles */
+  .success-message,
+  .error-message {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #0073e6; /* Blue for success */
+  }
+  
+  .error-message {
+    color: #ff3333; /* Red for error */
+  }
+  
+  /* Form group styles */
+  .updateform-group {
+    margin: 10px 0;
+  }
+  
+  /* Input styles */
+  .updatetotalquestions,
+  .updateSubjects,
+  .updateLevel,
+  .updatequestions {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Questions title styles */
+  .updatequestions-title {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  /* Question item styles */
+  .updatequestion-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Options title styles */
+  .updateoptions-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Option item styles */
+  .updateoption-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  /* Radio button styles */
+  .updatcorrecteoptions {
+    margin-right: 10px;
+  }
+  
+  /* Update button styles */
+  .update-button {
+    background-color: #2d84f5; /* Blue */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .update-button:hover {
+    background-color: #09438f; /* Darker blue on hover */
+  }
+/* UpdateTest.css */
+
+/* ... Other styles */
+
+/* Option item styles */
+.updateoption-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  /* Radio button styles */
+  .updatcorrecteoptions {
+    margin-right: 10px;
+  }
+    

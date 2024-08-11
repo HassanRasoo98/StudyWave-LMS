@@ -1,0 +1,4 @@
+media/uploads/*.mp4 filter=lfs diff=lfs merge=lfs -text
+media/uploads/*.mkv filter=lfs diff=lfs merge=lfs -text
+openai_whisper_model/venv/Lib/site-packages/torch/lib/*.dll filter=lfs diff=lfs merge=lfs -text
+openai_whisper_model/venv/Lib/site-packages/torch/lib/*.lib filter=lfs diff=lfs merge=lfs -text

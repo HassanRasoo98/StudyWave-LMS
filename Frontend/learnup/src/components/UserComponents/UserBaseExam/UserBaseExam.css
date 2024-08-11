@@ -1,0 +1,172 @@
+/* UserBaseExam.css */
+
+.user-base-exam {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 80px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .exam-report {
+    display: none;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .exam-report.visible {
+    display: block;
+  }
+  .examreportitles{
+    color: #052d50;
+  }
+
+  .exam-score {
+    text-align: right;
+    font-size: 25px;
+    color: #052d50;
+    margin-top: -30px;
+    margin-bottom: 20px;
+  }
+  .scorelabel{
+    color: #052d50;
+    font-size: 20px;
+
+  }
+  .correctionexam{
+    color: #052d50;
+    font-size: 18px;
+  }
+  .incorrection{
+    color: #052d50;
+    font-size: 18px;
+  }
+  
+  .exam-question {
+    margin-bottom: 20px;
+  }
+  
+  .exam-question-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .exam-question-text {
+    font-size: 16px;
+  }
+  
+  .exam-options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .exam-option {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .radio-input {
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .label-text {
+    font-size: 16px;
+  }
+  
+  .selected-option-mark {
+    color: #052d50;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .go-to-dashboard-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #052d50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .go-to-dashboard-button:hover {
+    background-color: #088108;
+  }
+  .makeincorrect {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .makeincorrection {
+    font-size: 24px;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+  
+  .makeuserexam-options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .makeuserexam-option {
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .makeuserexam-option:hover {
+    transform: scale(1.02);
+  }
+  
+  .correctionofradio {
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  .makeuserexam-option p {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .spanseperation {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .spanseperation::before {
+    content: "•";
+    color: #3498db;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  /* Add colorful background to "Your Option" and "Correct Option" */
+  .spanseperation {
+    background-color: #f3f3f3;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  

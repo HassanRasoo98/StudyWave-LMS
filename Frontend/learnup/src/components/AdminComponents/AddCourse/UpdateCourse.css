@@ -1,0 +1,107 @@
+.addupdatecoursecontainer{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+.addupdatecourserow{
+    display: flex;
+    justify-content: center;
+}
+.addupdatecoursecolumn{
+    text-align: center;
+}
+.addupdatecoursetitle{
+    margin-top: 30px;
+    margin-left: -495px;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.addupdatedefaulttabsul{
+    list-style: none;
+    padding: 0;
+}
+.addupdatedefaulttabsli{
+    display: inline-block;
+    margin-right: 10px;
+}
+.addupdatedefaulttabsspan{
+    color: #25ab7c;
+    padding: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.addupdatedefaulttabsli a{
+    text-decoration: none;
+    color: #2d84f5;
+    font-weight: bold;
+}
+.addupdatedefaulttabsli a:hover{
+    color: #111120;
+}
+.addupdatecourseform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.addupdatecoursediv{
+    flex-basis: 45%; /* Adjust as needed to fit your layout */
+    margin-bottom: 20px;
+}
+.addupdatecourseform-label{
+    color: #2d84f5;
+    font-weight: bold;
+}
+.addupdatecourseform-input, .courseupdateselect{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.addupdatecourseform-textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    resize: vertical;
+}
+.addupdatecourseform-textarea2{
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    resize: vertical;
+}
+.addupdatecourseform-textarea{
+    width: 800px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    resize: vertical;
+}
+.addupdatecoursebtncontainer{
+    text-align: center;
+}
+.addupdatecoursebtn{
+    background-color: #2d84f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addupdatecoursebtn:hover{
+    background-color: #111120;
+}

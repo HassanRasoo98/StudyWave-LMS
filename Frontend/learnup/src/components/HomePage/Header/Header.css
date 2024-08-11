@@ -1,0 +1,156 @@
+.template-header {
+  background-color: #052d50;
+  color: #fff;
+  padding: 15px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-navigation {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  padding: 0;
+}
+
+.container-1278 {
+  max-width: 1278px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.brand-logo a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.course-active {
+  display: flex;
+  padding: 5px 10px;
+  border: 2px solid #4339b2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: -30px;
+  margin-left: 140px;
+  margin-right: 20px;
+}
+.course-active a{
+  text-decoration: none;
+  color: white;
+}
+.down-arrow {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin-left: 20px; /* Adjust spacing between menu items */
+  font-weight: bold;
+}
+
+
+.mega-menu {
+  display: none;
+  position: absolute;
+  left: 5;
+  background-color: #fff;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 4px;
+  width: 300px; /* Adjust the width as needed */
+  z-index: 1;
+}
+
+.course-active:hover .mega-menu {
+  display: block;
+}
+
+.mega-menu h6 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #2587ab;
+}
+
+.row.g-0 {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap into multiple columns */
+  gap: 10px; /* Adjust the gap between columns (you can set it as needed) */
+}
+
+.col-md-6 {
+  flex: 0 0 calc(50% - 10px); /* Adjust width for two equal columns and consider gap */
+  max-width: calc(50% - 10px); /* Adjust max-width for two equal columns and consider gap */
+}
+
+.sub-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sub-menu li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.sub-menu a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect for sub-menu links */
+.sub-menu a:hover {
+  color: #2581ab; /* Link color on hover */
+}
+.nav-menu a{
+  text-decoration: none;
+  color: white;
+}
+.website-name {
+  font-size: 24px; 
+  color: white;   
+  font-weight: bold; 
+}
+.nav-menu a:hover{
+  color: #5b72e5;
+}
+.login-active{
+  display: flex;
+  padding: 5px 10px;
+  background-color: #2561ab;
+  border: 2px solid #3925ab;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+ 
+}
+.login-active:hover{
+background-color: #333;
+}

@@ -1,0 +1,176 @@
+  .back-arrow-button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .course-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 100px;
+  }
+  
+  .video-list {
+    flex: 1;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    margin-top: 60px;
+  }
+  
+   .section-header {
+    color: #052d50;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+   
+  .video-list-items {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 60px;
+  }
+  
+  .video-list-items li {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease;
+  }
+  
+  .video-list-items li:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .video-list-items li.active {
+    background-color: #052d50;
+    color: #fff;
+  }
+  
+  .video-list-items li input {
+    margin-right: 10px;
+  }
+  
+  .video-player {
+    flex: 2;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .video-player video {
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  .course-progress {
+    flex-basis: 100%;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-top: 0px;
+    text-align: center;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    background-color: #ddd;
+    position: relative;
+  }
+  
+  .progress-bar div {
+    height: 100%;
+    background-color:#052d50;
+    transition: width 0.3s ease;
+  }
+  .feedback-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+  }
+  .feedbackheadingcourse{
+    color: #052d50;
+  }
+  .feedbackparacourse{
+   margin-top: 10px;
+   color: #052d50;
+  }
+  .generatetrancriptcontainer {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  
+  .generatetranscript {
+    background-color: #052d50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 580px;
+    margin-bottom: 100px;
+  }
+  
+  .generatetranscript:hover {
+    background-color: #333;
+  }
+  .transcriptesgenerated {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin-top: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+    margin-bottom:200px ;
+  }
+  
+  .transcriptsgeneratedheading {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #052d50;
+    margin-left: 440px;
+  }
+  
+  .transcriptsgeneratedparagraph {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .transcript-download {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    color: #007bff;
+    margin-left: 400px;
+  }
+  
+  .transcript-download-icon {
+    margin-right: 8px;
+  }
+  
+  /* Add styles for the download icon */
+  .transcript-download-icon svg {
+    font-size: 20px;
+    cursor: pointer;
+    color: #007bff; /* You can choose the color you want */
+  }
+  .generatequiz {
+    margin-left: 700px;
+    margin-bottom: 100px;
+  }
+  .quizzes {
+    margin-left: 730px;
+    margin-bottom: 100px;
+  }

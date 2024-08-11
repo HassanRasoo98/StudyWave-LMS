@@ -1,0 +1,238 @@
+.adminheader-position {
+    background-color: #111120; 
+    color: #fff; 
+    width: 260px; 
+    height: 800px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.3s; 
+    z-index: 1;
+  }
+  .adminheader-position.sidebar-open {
+    width: 40px;
+    visibility: hidden;
+    
+  }
+  .adminsidebar-toggler {
+    display: block;
+    visibility: visible;
+    padding: 10px;
+    color: #2d84f5;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: right;
+  }
+
+  .admindashboard-logo {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .adminlogo {
+    text-decoration: none;
+  }
+  .Adminlogoheading {
+    font-size: 24px;
+    margin-top: 5px;
+    color: white;
+  }
+  .adminside-nav {
+    padding: 20px;
+  }
+  .adminul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .adminli {
+    margin-bottom: 10px;
+  }
+  .adminli a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .adminli a:hover {
+    background-color: #2d84f5;
+  }
+  .adminsub-menu.open {
+    display: block;
+  }
+  .adminsub-menu {
+    display: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 60px; 
+  }
+  .adminsub-menua:hover {
+    background-color: #2d84f5;
+  }
+  .sidebaricons{
+    margin-right: 20px;
+  }
+  .sidebaricon2{
+    margin-left: 20px;
+  }
+  .admintopnavcontainer {
+    background-color: #111120; 
+    color: #fff; 
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+.adminnavcontainerleft {
+    display: flex;
+    align-items: center;
+  }
+  .adminnavcontainerul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  .adminnavcontainerul li {
+    margin-right: 20px;
+  }
+  .adminnavcontainera {
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+  }
+  .refresh-icon{
+    margin-right: 10px;
+  }
+  .plusadd-icon{
+    margin-right: 10px;
+  }
+  .adminnavcontainera:hover{
+    color: #2d84f5;
+    border: 2px solid #2d84f5;
+  }
+ /* Style for the "Add new" dropdown link */
+.adminnavdropdownbtna {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  /* Style for the open dropdown */
+  .adminnavdropdownbtna.open {
+    border: 2px solid #2d84f5;
+    color: #2d84f5; /* Background color when open */
+  }
+  
+  /* Style for the submenu container */
+  .adminnavdropdownsubbtna {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 4px;
+    z-index: 1; /* Ensure it appears above other content */
+  }
+  
+  /* Style for the submenu items */
+  .adminnavdropdownsubbtna.open {
+    display: block;
+    background-color:#111120;
+    margin-top: -600px;
+    margin-left: 160px;
+    list-style: none;
+
+
+  }
+  
+  .adminadddropdown-item {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+  }
+  
+  .adminadddropdown-item:hover {
+    background-color: #2d84f5;
+  }
+  .subitemnavbar-icon{
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .sidebaricon3{
+    margin-left: 5px;
+  }
+  .adminnavcontainerright{
+    display: flex;
+  }
+  .adminnotification {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .botificationicontab {
+    text-decoration: none;
+    color: #000; /* Change color as needed */
+  }
+  .adminnotification img.user-avater {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .adminuser-name {
+    font-size: 16px;
+    color: #fff; /* Change color as needed */
+    cursor: pointer;
+  }
+  .adminuser-name.open{
+    color: #2d84f5; 
+  }
+  .adminprofiledropdown{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    border-radius: 4px;
+
+    z-index: 1; /* Ensure it appears above other content */
+  }
+  .adminprofiledropdown.open{
+    display: block;
+    background-color:#111120;
+    margin-top: -590px;
+    margin-left: 1200px;
+    list-style: none;
+  }
+  .adminprofiledropdown li{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+  }
+  .adminprofiledropdownsub{
+    text-decoration: none;
+    color: white;
+  }
+  .adminprofiledropdownsub:hover{
+    color: #2d84f5;
+
+  }
+  .adminprofiledropdown-icon{
+    margin-right: 5px;
+  }

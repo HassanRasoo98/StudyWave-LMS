@@ -1,0 +1,184 @@
+/* Style for the main container */
+.usercoursecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lms.rocket-soft.org/store/1/default_images/category_cover.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Style for the image */
+  .userimg-cover {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px; /* Rounded corners */
+  }
+  .maincoursestitle {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: white; /* Adjust the text color as needed */
+    margin: 0;
+  }
+  .dispcoursecount {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: rgba(196, 196, 196, 0.925); /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    user-select: none; /* Disable text selection */
+  }
+  
+.usersearchform input[type=text]{
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    width: 450px;
+    background: #f1f1f1;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 100px;
+}
+.usersearchbtn{
+  float: left;
+  width: 90px;
+  padding: 10px;
+  margin-top: 10px;
+  background: #2d84f5;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+.usersearchbtn:hover{
+    background-color: #2d84f5;
+}
+.usercourse-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+.usercourse-item{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 350px;
+    background-color: #fff;
+    margin-left: 40px;
+    margin-top: 40px;
+    transition: transform 0.3s;
+}
+.usercourse-item:hover{
+    transform: scale(1.05); /* Scale the card by 5% on hover */
+
+}
+.usercourseimg{
+    height: 236px;
+    width: 400px;
+}
+.usercourse-item-body{
+    background-color: rgb(236, 234, 234);
+    margin-top: -10px;
+}
+.usercourse-category{
+    margin-top: -230px;
+}
+.usercourse-category li{
+    background-color: #2d84f5; /* Background color */
+    color: #fff; /* Text color */
+    padding: 5px 10px;
+    font-size: 16px; /* Adjust the font size as needed */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+.usercourse-category a{
+    text-decoration: none;
+    color: white;
+}
+
+.usercourse-item-info .userrating-review{
+    list-style: none; /* Remove default list styles */
+    background-color: black;
+    width: 80px;
+    margin-left: 240px;
+    margin-top: 180px;
+
+}
+.usercourse-item-info .usertotal-review{
+    font-size: 18px; /* Adjust the font size as needed */
+    background-color: black;
+    color: white; /* Choose your desired text color */
+    display: flex; /* Make the star and rating text display in a row */
+    align-items: center; /* Vertically center items */
+    text-align: center;
+}
+.usericon-start{
+    color: #F39C12;
+    margin-right: 10px;
+}
+.usercoursetitle{
+    margin: 0; /* Remove default margin */
+}
+.usercourseparagraph{
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #2d84f5; /* Choose your desired text color */
+    margin: 10px; /* Remove any default margin or padding */
+    font-weight: bold; /* Adjust font weight as needed */
+}
+.usercourse-item-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #dddddd;
+}
+.usercourse-item-footer li{
+    list-style: none;
+
+}
+.usercourse-price{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d84f5;
+}
+.userdetails-btn{
+    background-color:#2d84f5; /* Background color for the button */
+    color: #fff; /* Text color for the button */
+    padding: 8px 15px; /* Add padding to the button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    text-decoration: none;
+    transition: background-color 0.3s; /* Add a smooth background color transition */
+    cursor: pointer;
+}
+.userdetails-btn:hover{
+    background-color: #333; /* Change the background color on hover */
+
+}
+
+.whishlisticon{
+    margin-left: 10px;
+    font-size: 14px;
+}
+/* CourseCatalogue.css */
+.whishlisticon-active {
+    color: red; /* Change this to your desired color */
+  }
+  
+.whishlisticon :hover{
+   color: red;
+}

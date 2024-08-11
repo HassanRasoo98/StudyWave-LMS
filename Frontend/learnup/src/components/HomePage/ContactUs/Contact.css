@@ -1,0 +1,96 @@
+/* Contact.css */
+.contactcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #052d50;
+  color: white;
+  text-align: center;
+  transition: opacity 0.5s;
+}
+
+.contact-us.animate {
+  opacity: 1;
+}
+
+.content2 {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.contactheading {
+  font-size: 2rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+form {
+  text-align: left;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  margin: 10px;
+  flex-basis: calc(50% - 20px); /* Two columns, with some margin */
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #1168d9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: #040c16;
+  color: #fff;
+  transform: scale(1.05); 
+}
+/* Media Queries for Mobile and Tablet Screens */
+@media screen and (max-width: 768px) {
+  .content {
+    max-width: 80%;
+  }
+
+  .form-group {
+    flex-basis: 100%; /* Full width on smaller screens */
+  }
+}

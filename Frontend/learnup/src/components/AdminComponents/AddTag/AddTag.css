@@ -1,0 +1,54 @@
+/*
+.addtagcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  .addtagtitle {
+    font-size: 24px;
+    color: #111120;
+    margin-bottom: 20px;
+  }
+  .addtagform {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+  .addtagdiv {
+    margin: 10px 0;
+  }
+  */
+  /* Styling for the form label */
+  /*
+  .addtagform-label {
+    font-weight: bold;
+  }
+  .addtagform-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  */
+  /* Styling for the submit button container */
+  /*
+  .addtagbtncontainer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .addtagbtn {
+    background-color: #2d84f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .addtagbtn:hover {
+    background-color: #333;
+  }
+  */

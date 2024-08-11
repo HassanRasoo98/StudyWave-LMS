@@ -1,0 +1,17 @@
+.addtagcategorybtncontainer{
+    margin-top: 40px;
+   
+    margin-right: 365px;
+}
+.addtagcategorybtn{
+    background-color: #2d84f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addtagcategorybtn:hover{
+    background-color: #111120;
+}

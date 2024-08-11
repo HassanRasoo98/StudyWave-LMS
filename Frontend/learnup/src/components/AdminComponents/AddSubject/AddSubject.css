@@ -1,0 +1,61 @@
+.addsubjectcontainer{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+.addsubjectrow{
+    display: flex;
+    justify-content: center;
+}
+.addsubjectcolumn{
+    text-align: center;
+
+}
+.addsubjecttitle{
+    margin-top: 30px;
+    margin-left: -390px;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.addsubjectform{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+}
+.addsubjectdiv{
+    flex-basis: 40%; /* Adjust as needed to fit your layout */
+    margin-bottom: 20px;
+
+}
+.addsubjectform-label{
+    color: #2d84f5;
+    font-weight: bold;
+}
+.addsubjectform-input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.addsubjectbtncontainer{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 365px;
+}
+.addsubjectbtn{
+    background-color: #2d84f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.addsubjectbtn:hover{
+    background-color: #111120;
+
+}

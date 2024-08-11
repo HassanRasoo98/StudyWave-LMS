@@ -1,0 +1,120 @@
+.addcoursecontainer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+.addcourserow {
+    display: flex;
+    justify-content: center;
+}
+.addcoursecolumn {
+    text-align: center;
+}
+.addcoursetitle {
+    margin-top: 30px;
+    margin-left: -495px;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.adddefaulttabsul {
+    list-style: none;
+    padding: 0;
+}
+
+.adddefaulttabsli {
+    display: inline-block;
+    margin-right: 10px;
+}
+.adddefaulttabsspan {
+    color: #2d84f5;
+    padding: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.adddefaulttabsli a {
+    text-decoration: none;
+    color: #2d84f5;
+    font-weight: bold;
+}
+
+ .adddefaulttabsli a:hover {
+    color: #111120;
+   
+}
+.addcourseform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.addcoursediv {
+    flex-basis: 45%; /* Adjust as needed to fit your layout */
+    margin-bottom: 20px;
+}
+.addcourseform-label {
+    color: #2d84f5;
+    font-weight: bold;
+}
+.addcourseform-input,
+.courseselect {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.addcourseform-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    resize: vertical;
+}
+.addcourseform-textarea2 {
+    width: 800px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    resize: vertical;
+}
+.addcourseform-textarea {
+    width: 800px;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    resize: vertical;
+}
+.addcoursebtncontainer {
+    text-align: center;
+}
+
+/* Button style */
+.addcoursebtn {
+    background-color: #2d84f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.addcoursebtn:hover {
+    background-color: #111120;
+}
+
+
+
+
+

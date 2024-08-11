@@ -1,0 +1,235 @@
+/* Styling for the course details header */
+.coursedetailsheader {
+  background-color: #052d50; /* Dark blue background */
+  color: #ecf0f1; /* Light text color */
+  padding: 0px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.coursedetailsimg {
+  /* margin: 0 100 20px; */
+  margin-left: 1000px;
+  margin-top: -10px;
+  /* margin-bottom: 100px; */
+  width: 180px; /* Adjust the image width as needed */
+}
+.coursedetailsimg img {
+
+  max-width: 350px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+/* Styling for the course details container */
+.coursedetailscontainer {
+  max-width: 800px;
+  margin: 0 300px;
+  margin-top: -150px;
+  margin-bottom: 20px;
+  /* margin-bottom: -10px; */
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row; /* Display items in a row */
+  justify-content: space-between; /* Spread items evenly */
+  align-items: center; /* Align items vertically in the center */
+}
+
+/* Styling for the course details content (left side) */
+.coursedetailscontent {
+  flex: 1; /* Take up remaining space */
+  padding: 0 20px;
+}
+
+/* Styling for the course details title */
+.coursedetailstitle {
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -100px;
+  color: white; /* Dark text color */
+}
+
+/* Styling for the course details paragraph */
+.coursedetailspara {
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+}
+
+/* Styling for the course details unordered list */
+.coursedetailsul {
+  list-style-type: none;
+  padding: 0;
+  margin-right: 120px;
+}
+
+/* Styling for the course details list item */
+.coursedetailslu {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* Styling for the course details rating icon */
+.coursedetailsratingicon {
+  color: white; /* Bright orange color for the star */
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+/* Styling for the course details rating value */
+.coursedetailsratingvalue {
+  font-size: 24px;
+  font-weight: bold;
+  color: white; /* Blue text color */
+}
+/* Styling for the course details overview section */
+.coursedetailsoverview {
+  background-color: #f4f4f4; /* Light gray background */
+  padding: 0px;
+  margin-top: 300px;
+  padding-top: 10px;
+}
+
+/* Styling for the course details overview container */
+.coursedetailoverviewcontainer {
+  max-width: 800px;
+  margin: -10px 50px;
+  height:300px
+}
+
+/* Styling for the course details overview row */
+.coursedetailoverviewrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  margin-left: 100px;
+}
+/* Styling for the course details overview column */
+.coursedetailoverviewcolumn {
+  flex: 1;
+}
+
+
+/* Styling for the "About This Course" title */
+/*.coursedetailoverviewabout {
+  font-size: 24px;
+  color: #052d50; /* Blue text color */
+/*  margin-left: -10px;
+  margin-top: -160px;
+  padding-top: 10px;
+}
+*/
+/* Styling for the course details overview paragraph */
+/* .coursedetailoverviewpara {
+  font-size: 18px;
+  color: #555; /* Dark gray text color */
+/*  text-align: justify;
+  margin-top: 6px;
+  margin-left: 40px;
+  margin-right: 200px;
+  font-weight: bold;
+  font-size:large;
+}*/
+.coursedetailoverviewabout {
+  font-size: 24px;
+  color: #052d50; /* Blue text color */
+  /* margin-left: -60px; */
+  margin-top: -200px;
+}
+
+/* Styling for the course details overview paragraph */
+.coursedetailoverviewpara {
+  font-size: 18px;
+  color: #555; /* Dark gray text color */
+  text-align: justify;
+  margin-top: 10px;
+  /* margin-left: 0px; */
+  /* margin-right: 200px; */
+  font-size: larger;
+  margin-top: 0px;
+}
+
+
+.coursedetailsinfo {
+  border-radius: 5px; /* Rounded corners for a card effect */
+  padding: 20px;
+  /* display: flex; */
+  flex-direction: column;
+  text-align: center;
+  margin-top: -600px;
+  margin-left: 700px;
+}
+
+.coursedetailsingleprice {
+  font-size: 24px;
+  font-weight: bold;
+  color: #052d50; /* Blue text color */
+  margin: 20px 0;
+}
+.course-feature-list {
+  border-top: 1px solid #ccc; /* Top border for separation */
+  width: 50% ;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-left: 220px;
+  margin-right: 40px;
+  
+}
+.course-feature-listul {
+  list-style-type: none;
+  align-items: end;
+  padding: 0;
+}
+.course-feature-listli {
+  display: flex;
+ 
+  margin: 10px 0;
+}
+.course-feature-listheading {
+  font-size: 18px;
+  color: #052d50; /* Slightly darker text color */
+  margin: 0;
+  margin-left: 50px;
+
+}
+.course-feature-listspan {
+  font-size: 16px;
+  color: #052d50; /* Dark gray text color */
+  margin: 0;
+  margin-left: 160px;
+  
+
+}
+/* Styling for the start now container */
+.startnowcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust the height as needed */
+  margin-left: -700px;
+  margin-top: 60px;
+}
+
+/* Styling for the start now button */
+.startnowbtn {
+  padding: 10px 20px;
+  background-color: #052d50; /* Blue background color */
+  color: #fff; /* White text color */
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+ 
+}
+.back-arrow-button{
+  margin-right: 1200px;
+  margin-top: 20px;
+}

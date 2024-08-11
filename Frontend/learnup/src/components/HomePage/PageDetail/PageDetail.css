@@ -1,0 +1,31 @@
+.PageContainer {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  background-color: #1168d9; 
+  padding: 20px;
+}
+.counter-wrap {
+  text-align: center;
+}
+.titlecourse {
+  font-size: 28px;
+  font-weight: bold;
+  color: white; /* Text color for the title */
+  margin-bottom: 10px;
+}  
+.counter {
+  font-size: 24px;
+  font-weight: bold;
+  color: white; /* Text color for the counter number */
+}
+
+.suffix {
+  font-size: 18px;
+  font-weight: bold;
+  color: white; /* Text color for the "+" sign */
+}
+.totalcourse-icon{
+  margin-right: 20px;
+  font-size: 32px;
+}

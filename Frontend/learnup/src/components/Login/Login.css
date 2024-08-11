@@ -1,0 +1,105 @@
+.logincontainer{
+    background: var(--color-white);
+    box-shadow: 0px 4px 30px rgb(var(--color-black-rgb)/0.40);
+    border-radius: 20px;
+    padding: 50px 60px 50px 60px;
+    font-family: var(--font-jost);
+    position: relative;
+    max-width: 583px;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+/* Style for the form shape */
+.form-shape {
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Style for the login title */
+  .logintitle {
+    font-size: 24px; /* Set your desired font size */
+    font-weight: bold;
+    color: #2d84f5; /* Set your desired text color */
+    margin: 0; /* Remove any default margin */
+    text-align: center;
+  }
+.loginform{
+    display: block;
+    max-width: 400px; /* Set the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.formcontainer {
+    margin-bottom: 15px;
+  }
+  .formlabel {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #2d84f5; /* Set your desired text color */
+  }
+  .forminput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2d84f5; /* Add a border to the input fields */
+    border-radius: 5px;
+  }
+  .loginbtn {
+    background-color: #2d84f5; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.forgetlink, .newuserlink {
+    text-align: center;
+    margin-top: 30px;
+    color: #333; 
+
+  }
+  .forgetlink a, .newuserlink a {
+    color: #2d84f5; /* Set your desired link color */
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  .commonheading {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 20px;
+    background-color: #052d50;
+  }
+  .CTAimage img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+  }
+  .commonheadingtxt {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 300px;
+    color: white; /* Set your desired text color */
+  }
+  .commonpara {
+    font-size: 16px;
+    color: white; /* Set your desired text color */
+  }
+  .learnerbtn {
+    background-color: #2d84f5; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+  
+  /* Style for the "Sign up" button on hover */
+  .learnerbtn:hover {
+    background-color: white;
+    color: #1A3D31; /* Change the background color on hover */
+  }

@@ -1,0 +1,23 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    position: fixed; /* Fixes the loader position */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the loader appears on top of other content */
+  }
+  
+  .loader-content {
+    text-align: center;
+    color: #1B065E; /* Text color */
+    font-size: 24px;
+  }
+  .timer {
+    font-size: 24px;
+    color: #1B065E; /* Color for the timer text */
+    margin-top: 0px; /* Spacing between content and timer */
+  }
