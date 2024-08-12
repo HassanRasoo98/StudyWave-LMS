@@ -1,8 +1,7 @@
 # git+https://github.com/openai/whisper.git # need to have git installed for this to work
-openai-whisper
-moviepy
+# openai-whisper
+# moviepy
 transformers
-fastapi
-uvicorn
-openai==0.28
-python-dotenv
+fastapi[all]
+openai==1.40.5
+python-dotenv==1.0.1

@@ -1,14 +1,12 @@
 import json
-import requests
-from pydantic import BaseModel
 import os
-import openai
+from openai import OpenAI
+from pydantic import BaseModel
 from dotenv import load_dotenv
 
 load_dotenv()
 
-key = os.getenv('OPENAI_API_KEY')
-openai.api_key = key
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 class ParagraphInput(BaseModel):
     paragraph: str
@@ -80,23 +78,19 @@ def get_mcq(paragraph: str):
     return validate_questions(json.loads(reply))
 
 def get_heading(paragraph):
-    base_url = ""
-    url = base_url + "/generate-topics/"
-    # url = "" # add ngrok link here
-    data = {"paragraph": paragraph}
-    
-    try:
-        response = requests.post(url, json=data)
-        heading = str(response.json()).split("Topic:")[1].strip()
-        if response.status_code == 200:
-            return heading
-        else:
-            # return f"Error: {response.status_code} - {response.reason}"
-            return ""
-    except Exception as e:
-        # return f"Error: {e}"
-        return ""
+    client = OpenAI(api_key=OPENAI_API_KEY)
 
+    system_prompt = """You are an intelligent topic generating system. The user will provide you a paragraph as input and Your task is to determine a suitable topic for the paragraph."""
+    
+    response = client.chat.completions.create(
+        model='gpt-3.5-turbo',
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": f"Paragraph: {paragraph}"}
+        ]
+    )
+    
+    return response.choices[0].message.content
 
 def final_transcript():
     return """Unsupervised Learning.
