@@ -1,22 +1,35 @@
 import OpenAI from "openai";
-dotenv.config();
 import dotenv from 'dotenv';
+import express from 'express';
+import fs from 'fs';
+dotenv.config();
 
+const router = express.Router();
 
-const router = express.Router()
+router.post('/transcription', async(req, res) => {
+  const query = req.query;
+  const path = query['path']
 
-const transcribe = async(req, res) => {
-    const transcription = await openai.audio.transcriptions.create({
-        // file: fs.createReadStream(yourPathValue),
-        file: yourPathValue,
-        model: "whisper-1",
-      });
+  console.log(query);
+  console.log(path);
 
-      console.log(transcription.text);
-      return transcription.text;
-}
+  // Get the current working directory
+  const currentDirectory = process.cwd();
 
-router.post('/transcription', transcribe)
-const openai = new OpenAI({apiKey: process.env.OPENAI_API_KEY});
+  // const fullPath = path.join(currentDirectory, path)
 
-export default router
+  console.log('Current working directory:', currentDirectory);
+
+  const openai = new OpenAI({apiKey: process.env.OPENAI_API_KEY});
+  const transcription = await openai.audio.transcriptions.create({
+    file: fs.createReadStream(currentDirectory + path),
+    // file: path,
+    model: "whisper-1",
+  });
+
+  // console.log(transcription.text);
+  res.status(200).json({text : transcription.text});
+});
+
+export default router;
+

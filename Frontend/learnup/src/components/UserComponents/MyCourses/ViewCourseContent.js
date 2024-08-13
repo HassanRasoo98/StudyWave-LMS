@@ -266,15 +266,23 @@ const ViewCourseContent = () => {
       const videoPath = `${selectedVideo.url}`;
       console.log(videoPath);
 
-      const yourPathValue =
-        `/home/armin/Downloads/FYP2_Demo/media/uploads/` + videoPath;
+      const yourPathValue = `/media/uploads/` + videoPath;
 
       console.log(yourPathValue);    
-      console.log(transcription.text);
+      // console.log(transcription.text);
 
       // send request here
+      // const res = await axios.post("/api/v1/transcribe");
+      const res = await fetch(`http://127.0.0.1:7000/api/v1/transcribe/transcription?path=${yourPathValue}`, {
+        method: "POST",
+        // headers: {"Content-type": "application/json"},
+        // body: JSON.stringify(videoPath)
+      })
 
-      setTranscript(transcription.text); // Update the state with the transcript
+      const data = await res.json();
+      console.log('Response Data:', data.text);
+
+      // setTranscript(res.data); // Update the state with the transcript
     } catch (error) {
       console.error("Error:", error);
     }
