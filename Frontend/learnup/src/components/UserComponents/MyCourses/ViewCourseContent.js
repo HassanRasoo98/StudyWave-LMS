@@ -189,12 +189,11 @@ import "./ViewCourseContent.css";
 import { FaArrowLeft } from "react-icons/fa";
 import { MdFileDownload } from "react-icons/md";
 
+// import fs from "fs";
 // ... (other imports)
 
 const ViewCourseContent = () => {
-  // const quiz_url = `http://localhost:8000/generate-mcqs`;
-  const quiz_url = `https://785a-154-81-230-197.ngrok-free.app/`;
-  // const quiz_url = `https://ff8f-34-91-29-176.ngrok-free.app` + `/generate-mcqs`;
+  const quiz_url = `http://localhost:8000/generate-mcqs`;
   const { courseId } = useParams();
   const [courses, setCourses] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -270,22 +269,12 @@ const ViewCourseContent = () => {
       const yourPathValue =
         `/home/armin/Downloads/FYP2_Demo/media/uploads/` + videoPath;
 
-      console.log(yourPathValue);
+      console.log(yourPathValue);    
+      console.log(transcription.text);
 
-      const response = await axios.post(
-        "https://785a-154-81-230-197.ngrok-free.app/transcribe",
-        { path: yourPathValue }, // Ensure yourPathValue is defined elsewhere
-        { headers: { "Content-Type": "application/json", mode: "no-cors" } }
-      );
+      // send request here
 
-      // const response = await axios.post('http://localhost:8000/process_paragraphs',
-      //                     // { videoPath },
-      //                     // { headers: { 'Content-Type': 'application/json', mode: 'no-cors' } }
-      // );
-
-      console.log(response.data);
-      const transcript = response.data;
-      setTranscript(transcript); // Update the state with the transcript
+      setTranscript(transcription.text); // Update the state with the transcript
     } catch (error) {
       console.error("Error:", error);
     }

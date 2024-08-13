@@ -14,6 +14,8 @@ import userTestRoute from './routes/userTestRoute.js'
 import whishlistRoute from './routes/whishlistRoute.js'
 import cartRoute from './routes/cartRoute.js'
 import stripeRoute from './routes/stripeRoute.js'
+import transcribeRoute from './routes/transcription.js'
+
 dotenv.config();
 connectDB();
 const app = express();
@@ -33,6 +35,7 @@ app.use('/api/v1/test',userTestRoute);
 app.use('/api/v1/save/',whishlistRoute)
 app.use('/api/v1/carts',cartRoute)
 app.use('/api/v1/payment',stripeRoute)
+app.use('/api/v1/transcribe', transcribeRoute);
 app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send({
