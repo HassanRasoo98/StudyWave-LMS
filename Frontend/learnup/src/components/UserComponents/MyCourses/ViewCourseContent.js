@@ -282,7 +282,7 @@ const ViewCourseContent = () => {
       const data = await res.json();
       console.log('Response Data:', data.text);
 
-      // setTranscript(res.data); // Update the state with the transcript
+      setTranscript(data.text); // Update the state with the transcript
     } catch (error) {
       console.error("Error:", error);
     }
