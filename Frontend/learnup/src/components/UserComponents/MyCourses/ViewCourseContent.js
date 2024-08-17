@@ -193,7 +193,6 @@ import { MdFileDownload } from "react-icons/md";
 // ... (other imports)
 
 const ViewCourseContent = () => {
-  const quiz_url = `http://localhost:8000/generate-mcqs`;
   const { courseId } = useParams();
   const [courses, setCourses] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -298,16 +297,43 @@ const ViewCourseContent = () => {
 
   const handleGenerateQuiz = async () => {
     try {
-      const response = await axios.post(quiz_url, { paragraph: transcript });
+      const quiz_url = "http://127.0.0.1:7000/api/v1/quiz/generate_quiz/"
+      const response = await axios.post(quiz_url, { transcript: transcript });
 
-      // const questions = response.data.split('\n');
+      const questions = JSON.parse(response.data);
+      console.log(questions);
 
-      // console.log(questions); // Check the array of questions
+      // const parsedQuizzes = questions.map((question, index) => {
+      //   console.log("Question:", question); // Check each question
+      
+      //   const questionText = question.question;
+      //   const choicesWithAnswer = question.answer; // Constructing choicesWithAnswer from options and answer
+      
+      //   console.log("Question text:", questionText);
+      //   console.log("Choices with answer:", choicesWithAnswer);
+      
+      //   // Split choices and correct answer
+      //   const [choices, correctAnswer] = choicesWithAnswer.split('*');
+      //   console.log("Choices:", choices);
+      //   console.log("Correct answer:", correctAnswer);
+      
+      //   // Convert choices string into an array
+      //   const choicesArray = choices.split(', ').filter(choice => choice !== "");
+      //   console.log("Choices array:", choicesArray);
+      
+      //   return {
+      //     id: index + 1, // Assuming question IDs start from 1
+      //     question: questionText.trim(),
+      //     choices: choicesArray,
+      //     correctAnswer: correctAnswer.trim(),
+      //   };
+      // });
+      
 
       // const parsedQuizzes = questions.map((question, index) => {
       //   console.log("Question:", question); // Check each question
 
-      //   const [questionText, choicesWithAnswer] = question.split(': ');
+      //   const questionText = question['']
       //   console.log("Question text:", questionText);
       //   console.log("Choices with answer:", choicesWithAnswer);
 
@@ -326,7 +352,7 @@ const ViewCourseContent = () => {
       //   };
       // });
 
-      setQuizzes(response.data);
+      setQuizzes(JSON.stringify(questions));
       // console.log(quizzes);
     } catch (error) {
       console.error("Error:", error);

@@ -15,6 +15,7 @@ import whishlistRoute from './routes/whishlistRoute.js'
 import cartRoute from './routes/cartRoute.js'
 import stripeRoute from './routes/stripeRoute.js'
 import transcribeRoute from './routes/transcription.js'
+import quizRoute from './routes/quiz_generation.js'
 
 dotenv.config();
 connectDB();
@@ -36,6 +37,7 @@ app.use('/api/v1/save/',whishlistRoute)
 app.use('/api/v1/carts',cartRoute)
 app.use('/api/v1/payment',stripeRoute)
 app.use('/api/v1/transcribe', transcribeRoute);
+app.use('/api/v1/quiz', quizRoute);
 
 app.use((err, req, res, next) => {
     console.error(err.stack);
