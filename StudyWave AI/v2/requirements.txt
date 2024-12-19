@@ -1,8 +1,0 @@
-# git+https://github.com/openai/whisper.git # need to have git installed for this to work
-openai_whisper
-transformers
-moviepy
-fastapi[all]
-openai==0.28
-python-dotenv
-numpy

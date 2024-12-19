@@ -1,4 +1,4 @@
-import OpenAI from "openai";
+import OpenAI from "openai/index.mjs";
 import dotenv from 'dotenv';
 import express from 'express';
 import fs from 'fs';

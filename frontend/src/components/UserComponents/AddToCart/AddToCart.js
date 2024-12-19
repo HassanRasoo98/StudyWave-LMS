@@ -1,7 +1,7 @@
 // components/AddToCart.js
 
 import React, { useEffect, useState } from "react";
-import UserPage from "../UserPage/UserPage";
+import UserPage from "../UserPage/UserPage.js";
 import { useAuth } from "../../../context/auth.js";
 import { FaTrash } from "react-icons/fa";
 import "./AddToCart.css";

@@ -1,12 +1,12 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/HomePage/Home/Home';
+import Home from './components/HomePage/Home/Home.js';
 import Login from './components/Login/Login.js';
 import Signup from './components/Signup/Signup.js';
 import ProfileComplete from './components/ProfileComplete/ProfileComplete.js';
-import AdminRoute from '../src/components/Route/AdminRoute.js';
+import AdminRoute from './components/Route/AdminRoute.js';
 import { useNavigate, useParams } from 'react-router-dom';
-import PrivateRoute from '../src/components/Route/Private.js';
+import PrivateRoute from './components/Route/Private.js';
 import AdminPage from './components/AdminComponents/AdminPage/AdminPage.js';
 import UserPage from './components/UserComponents/UserPage/UserPage.js';
 import AddCourse from './components/AdminComponents/AddCourse/AddCourse.js';
